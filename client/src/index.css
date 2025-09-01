@@ -1,0 +1,48 @@
+/* Importa Tailwind v4 */
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ===== Estilos globales ===== */
+body {
+  @apply font-sans text-gray-800 bg-gray-50;
+}
+
+h1 {
+  @apply text-4xl font-extrabold text-center text-gray-800 dark:text-gray-100 drop-shadow-sm mb-12;
+}
+
+/* Tarjetas */
+.product-card {
+  @apply bg-white dark:bg-gray-800 rounded-2xl pt-6 shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transform transition duration-300;
+}
+
+.product-image {
+  @apply bg-gray-100 dark:bg-gray-600 h-48 flex items-center justify-center;
+}
+
+.btn-primary {
+  @apply bg-[#1e130c] text-white px-4 sm:px-4 py-2 mb-4 rounded-xl 
+         hover:bg-[#f5d099] text-sm transition hover:text-black 
+         dark:bg-[#f5d099] dark:hover:bg-[#1e130c] dark:text-black dark:hover:text-white;
+}
+
+/* Navbar*/
+.container-nav {
+  @apply w-full bg-white shadow-md fixed top-0 left-0 z-50 dark:bg-black dark:text-white;
+}
+
+.navbar {
+  @apply mx-auto px-6 py-5 flex items-center justify-between;
+}
+
+.nav-logo {
+  @apply text-xl font-bold text-[#2c2721] dark:text-[#f5d099];
+}
+
+.nav-link {
+  @apply p-2 bg-[#2c2721] text-[#f5d099] rounded-xl hover:bg-[#f5d099] hover:text-[#2c2721] transition;
+}
+
+.nav-link-cart {
+  @apply inline-grid grid-cols-2 p-2 gap-4 bg-[#2c2721] text-[#f5d099] rounded-xl hover:bg-[#f5d099] hover:text-[#2c2721] transition;
+}
