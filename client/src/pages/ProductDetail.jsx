@@ -10,7 +10,7 @@ function ProductDetail() {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/api/products/${id}`)
+    fetch(`https://mystore-pxu1.onrender.com/api/products/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);

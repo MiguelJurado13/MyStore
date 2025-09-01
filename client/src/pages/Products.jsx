@@ -8,7 +8,7 @@ function Products({ search }) {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/products")
+    fetch("https://mystore-pxu1.onrender.com/api/products")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.error("Error al obtener productos:", err));

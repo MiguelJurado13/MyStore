@@ -5,7 +5,7 @@ import Products from "./pages/Products.jsx";
 import ProductDetail from "./pages/ProductDetail.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Cart from "./pages/Cart.jsx";
-import Login from './pages/login.jsx';
+import Login from './pages/Login.jsx';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
