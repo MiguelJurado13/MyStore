@@ -29,17 +29,17 @@ Incluye carrito de compras, catálogo dinámico, autenticación, login con modal
 ## 📂 Estructura del proyecto
 
 📁 root
-├── 📁 client # Frontend (React + Vite)
-│ ├── src
-│ ├── package.json
-│ └── ...
-├── 📁 server # Backend (Node + Express)
-│ ├── models
-│ ├── routes
-│ ├── index.js
-│ ├── package.json
-│ └── ...
-└── netlify.toml # Configuración para Netlify
+ ── 📁 client # Frontend (React + Vite)
+   ── src
+   ── package.json
+   ── ...
+    📁 server # Backend (Node + Express)
+   ── models
+   ── routes
+   ── index.js
+   ── package.json
+   ── ...
+    netlify.toml # Configuración para Netlify
 
 
 ---
@@ -59,4 +59,4 @@ Incluye carrito de compras, catálogo dinámico, autenticación, login con modal
 
 ---
 
-![Home MyStore](https://github.com/MiguelJurado13/MyStore/tree/main/ReadImg/Home.png)
+![Home MyStore](ReadImg/Home.png)
