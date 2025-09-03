@@ -29,11 +29,11 @@ Incluye carrito de compras, catálogo dinámico, autenticación, login con modal
 ## 📂 Estructura del proyecto
 
 📁 root
- - **📁 client # Frontend (React + Vite)
+ - 📁 client # Frontend (React + Vite)
    ── src
    ── package.json
    ── ...
-- **📁 server # Backend (Node + Express)
+- 📁 server # Backend (Node + Express)
    ── models
    ── routes
    ── index.js
