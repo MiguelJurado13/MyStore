@@ -69,7 +69,7 @@ netlify.toml # Configuración para Netlify
 
 ## Login DarkMode
 
-![Home MyStore](ReadImg/LoginDak.png)
+![Home MyStore](ReadImg/LoginDark.png)
 
 ## Catalogo
 
